@@ -1,16 +1,33 @@
 {
   "name": "upstat-sdk",
   "version": "1.0.0",
-  "description": "Internal health check monitoring SDK for UpStat",
+  "description": "Health check and heartbeat monitoring SDK for Upstat",
   "main": "dist/index.js",
-  "types": "dist/index.t.ts",
-  "files": ["dist", "README.md"],
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc"
   },
-  "keywords": ["upstat", "monitoring", "health-check", "uptime"],
-  "author": "UpStat",
+  "keywords": [
+    "upstat",
+    "monitoring",
+    "uptime",
+    "health-check",
+    "observability"
+  ],
+  "author": "Upstat",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yagofontanez/upstat-sdk"
+  },
+  "homepage": "https://github.com/yagofontanez/upstat-sdk",
+  "bugs": {
+    "url": "https://github.com/yagofontanez/upstat-sdk/issues"
+  },
   "devDependencies": {
     "typescript": "^5.0.0"
   },
