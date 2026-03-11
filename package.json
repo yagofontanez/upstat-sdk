@@ -1,0 +1,20 @@
+{
+  "name": "upstat-sdk",
+  "version": "1.0.0",
+  "description": "Internal health check monitoring SDK for UpStat",
+  "main": "dist/index.js",
+  "types": "dist/index.t.ts",
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["upstat", "monitoring", "health-check", "uptime"],
+  "author": "UpStat",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
