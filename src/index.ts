@@ -1,5 +1,5 @@
 const DEFAULT_ENDPOINT =
-  "https://upstat-backend.onrender.com/api/sdk/heartbeat";
+  "https://api.upstat.online/api/sdk/heartbeat";
 const DEFAULT_INTERVAL_MS = 60_000;
 
 type CheckStatus = "up" | "down";

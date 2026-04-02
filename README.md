@@ -97,7 +97,7 @@ Opção Tipo Obrigatório Descrição
 
 ```ts
 interval: 60000 // 60s
-endpoint: https://upstat-backend.onrender.com/api/sdk/heartbeat
+endpoint: https://api.upstat.online/api/sdk/heartbeat
 ```
 
 ---
